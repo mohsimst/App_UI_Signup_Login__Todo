@@ -1,0 +1,149 @@
+/* ------import link--------- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", "Arial Narrow", Arial, sans-serif;
+}
+.main_div {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.center_div {
+  width: 25%;
+  height: 80vh;
+  padding: 4vh 3vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 2px 2px 5px 4px #bccece; */
+  border-radius: 15px;
+}
+#heading {
+  color: white;
+  height: 5vh;
+  font-size: 4vh;
+  background: transparent;
+  background: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.inputs {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 3px solid #0ba360;
+  outline: none;
+}
+.btn {
+  height: 45px;
+  width: 45px;
+  border: none;
+  border-radius: 50%;
+  border-color: transparent;
+  background: linear-gradient(to right, #0ba360, #3cba92, #2bb673);
+  color: #fff;
+  font-size: 40px;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.btn:hover {
+  background: #227b4b;
+}
+.editBtn {
+  display: flex;
+  height: 25px;
+  width: 25px;
+  border: none;
+  border-radius: 50%;
+  border-color: transparent;
+  background: linear-gradient(to right, #0ba360, #3cba92, #2bb673);
+  color: #fff;
+  font-size: 40px;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.editIcon {
+  height: 15px;
+  width: 15px;
+  border: none;
+  border-radius: 50%;
+  border-color: transparent;
+  background: linear-gradient(to right, #0ba360, #3cba92, #2bb673);
+  color: #fff;
+  font-size: 40px;
+  outline: none;
+  margin: 5px 0 0 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.iconDiv {
+  margin: 0 20px 0 auto;
+}
+.itemDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px 0 10px;
+  margin: 15px 0 10px 0;
+}
+li {
+  list-style: none;
+}
+.editIcon {
+  color: "#3cba92";
+  /* color: red; */
+  font-size: 20px;
+  margin-left: "10px";
+  background-color: "red";
+}
+.editIcon:hover {
+  color: #00563b;
+}
+.row {
+  display: flex;
+  margin: 30px 0;
+  padding: 0 45px 0 10px;
+}
+.deleteBtn {
+  margin: 0 0 0 auto;
+  border: none;
+  border-radius: 50%;
+  padding: 4px 5px 3px 5px;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
+.saveBtn {
+  margin-left: 15px;
+  background-color: blue;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 10px;
+  border: none;
+}
+.saveInput {
+  padding: 4px 10px;
+  border-radius: 12px;
+  border: 2px solid green;
+}
